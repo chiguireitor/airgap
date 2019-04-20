@@ -1,0 +1,24 @@
+{
+  "name": "airgap",
+  "version": "0.0.1",
+  "description": "An airgapped wallet for bitcoin P2SH segwit addresses",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Villar (chiguireitor)",
+  "license": "ISC",
+  "dependencies": {
+    "bip32": "^1.0.4",
+    "bip38": "^2.0.2",
+    "bip39": "^3.0.1",
+    "bitcoinjs-lib": "^5.0.2",
+    "prompt-promise": "^1.0.3",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

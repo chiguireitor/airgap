@@ -1,0 +1,7 @@
+{
+  "script": "hex of the utxo's script", // Sometimes called scriptPubKey
+  "voutamount": 23836081, // Amount in satoshis
+  "vout": 1,
+  "txid": "txid your utxo is included on"
+  "child": 0 // integer, should correspond to the derivation path of the address corresponding to the utxo
+}
